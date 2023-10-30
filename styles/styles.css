@@ -17,4 +17,28 @@
     background-image: url(../assets/hotelMarkupAssets/header.jpg);
     background-size: cover;
     height: 500px;
+    background-position: center;
+}
+
+.headerBox {
+    background-color: #000324;
+    opacity: 80%;
+    width: 945px;
+    height: 232px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navBarFont {
+    font-size: 20px;
+}
+
+.hamsterParadise {
+    font-size: 35px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
