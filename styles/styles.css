@@ -1,0 +1,20 @@
+.headerColor {
+    background-color: #000324;
+}
+
+.headerText {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.reserveBorder {
+    border: 2px solid;
+    color: #E5FEFF;
+}
+
+.row1BG {
+    background-image: url(../assets/hotelMarkupAssets/header.jpg);
+    background-size: cover;
+    height: 500px;
+}
