@@ -97,3 +97,10 @@ p {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 15px;
 }
+
+.imageFit {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: auto;
+    width: auto;
+}
