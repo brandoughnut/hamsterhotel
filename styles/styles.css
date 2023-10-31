@@ -21,6 +21,12 @@
     color: white;
 }
 
+.reserveBorder {
+    border: 1px solid;
+    border-color: white;
+    padding-top: 10%;
+    
+}
 
 .row1BG {
     background-image: url(../assets/hotelMarkupAssets/header.jpg);
@@ -55,10 +61,39 @@ p {
 .row2BG {
     background-image: url(../assets/hotelMarkupAssets/bg2.jpg);
     background-size: cover;
-    height: 738px;
+    height: auto;
     background-position: center;
 }
 
 .navbar-toggler {
     background-color: rgb(255, 255, 255);
+}
+
+.navBarSpacing {
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+}
+
+.cardTitle {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+
+.btnColor {
+    background-color: #004CC7;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.cardText1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.cardText2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
 }
