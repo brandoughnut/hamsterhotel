@@ -6,12 +6,21 @@
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
     color: white;
+    padding-top: 73px;
+
 }
 
-.reserveBorder {
-    border: 2px solid;
-    color: #E5FEFF;
+.headerSpacing {
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.headerText2 {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
 
 .row1BG {
     background-image: url(../assets/hotelMarkupAssets/header.jpg);
@@ -41,4 +50,11 @@ p {
     font-size: 35px;
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
+}
+
+.row2BG {
+    background-image: url(../assets/hotelMarkupAssets/bg2.jpg);
+    background-size: cover;
+    height: 738px;
+    background-position: center;
 }
