@@ -58,3 +58,7 @@ p {
     height: 738px;
     background-position: center;
 }
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
