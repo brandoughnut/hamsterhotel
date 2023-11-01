@@ -10,11 +10,6 @@
 
 }
 
-.headerSpacing {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 .headerText2 {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
@@ -65,6 +60,13 @@ p {
     background-position: center;
 }
 
+.row3BG {
+    background-image:url(../assets/hotelMarkupAssets/bg.jpg);
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+
 .navbar-toggler {
     background-color: rgb(255, 255, 255);
 }
@@ -78,6 +80,7 @@ p {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
+    font-weight: lighter;
 }
 
 .btnColor {
@@ -101,6 +104,12 @@ p {
 .imageFit {
     object-fit: cover;
     object-position: 50% 50%;
-    height: auto;
-    width: auto;
+    height: 234px;
+    width: 600px;
+}
+
+.amenitiesText {
+    font-weight: bold;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
 }
