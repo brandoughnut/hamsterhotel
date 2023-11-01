@@ -113,3 +113,23 @@ p {
     color: white;
     font-family: 'Source Sans 3', sans-serif;
 }
+
+.reserveBox {
+    background-color: #000324;
+    width: 1137px;
+    height: 207px;
+    text-align: center;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.reserveImage {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 1135.22px;
+    height: 414px;
+}
+
+.footer {
+    background-color: #000324;
+}
