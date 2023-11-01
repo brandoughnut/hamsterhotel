@@ -68,7 +68,7 @@ p {
 }
 
 .navbar-toggler {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(104, 120, 155);
 }
 
 .navBarSpacing {
@@ -117,19 +117,32 @@ p {
 .reserveBox {
     background-color: #000324;
     width: 1137px;
-    height: 207px;
+    height: auto;
     text-align: center;
-    margin-right: 7%;
-    margin-left: 7%;
+    /* margin-right: 7%;
+    margin-left: 7%; */
 }
 
 .reserveImage {
     object-fit: cover;
     object-position: 50% 50%;
-    width: 1135.22px;
+    width: 100%;
     height: 414px;
 }
 
 .footer {
     background-color: #000324;
+}
+
+@media screen and (max-width: 1860px) {
+    .navBarFont {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1352px){
+    .navBarFont {
+        font-size: 10px;
+    }
 }
