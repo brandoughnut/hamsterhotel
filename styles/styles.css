@@ -6,7 +6,6 @@
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
     color: white;
-    padding-top: 73px;
 
 }
 
@@ -14,13 +13,6 @@
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'Dosis', sans-serif;
     color: white;
-}
-
-.reserveBorder {
-    border: 1px solid;
-    border-color: white;
-    padding-top: 10%;
-    
 }
 
 .row1BG {
@@ -145,4 +137,10 @@ p {
     .navBarFont {
         font-size: 10px;
     }
+}
+
+.navBarHover :hover {
+    border: 1px solid;
+    border-color: white;
+    color: white;
 }

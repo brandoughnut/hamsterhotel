@@ -27,25 +27,25 @@
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
         <ul class="navbar-nav " style="font-size: 20px;">
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#overview">Overview</a>
           </li>
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#rooms">Rooms</a>
           </li>
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#packages">Packages</a>
           </li>
           <li class="d-none d-lg-block d-flex align-items-end navBarSpacing">
-            <img src="./assets/hotelMarkupAssets/Logo.png" alt="Hamster Hotel Logo" class="img-fluid" />
+            <img src="./assets/hotelMarkupAssets/Logo.png" alt="Hamster Hotel Logo" class="img-fluid mb-2" />
           </li>
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#amenities">Amenities</a>
           </li>
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#contact">Contact</a>
           </li>
-          <li class="nav-item d-flex align-items-end">
+          <li class="nav-item d-flex align-items-end navBarHover">
             <a class="nav-link headerText navBarSpacing" href="#reserve">Reserve</a>
           </li>
         </ul>
@@ -77,7 +77,7 @@
   <div class="container" id="overview">
     <div class="row justify-content-center">
       <div class="col-md-auto d-flex justify-content-center">
-        <img class="img-fluid" src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg"
+        <img class="img-fluid d-none d-md-block d-lg-block d-xl-block d-xxl-block" src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg"
           alt="A hamster that has a hat, is sitting on a chair, and is eating a green bean"
           style="width: 369px; height: 416px" />
       </div>
@@ -205,7 +205,7 @@
     <br>
     <div class="row" style="margin-right: 6%; margin-left: 6%;">
 
-      <div class="col d-flex align-items-center">
+      <div class="col d-flex align-items-center d-none d-md-block d-lg-block d-xl-block d-xxl-block">
         <img class="imageFit img-fluid" src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt="Hamster with heart knits" />
       </div>
       <div class="col d-flex align-items-start flex-column justify-content-center">
@@ -232,14 +232,14 @@
           vegetable centric dinners along with a live show from local musicians.
         </p>
       </div>
-      <div class="col d-flex align-items-center">
+      <div class="col d-flex align-items-center d-none d-md-block d-lg-block d-xl-block d-xxl-block">
         <img class="imageFit img-fluid" src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="Hamster glowing with tree branches" />
       </div>
 
     </div>
     <div class="row" style="margin-right: 6%; margin-left: 6%;">
 
-      <div class="col d-flex align-items-center">
+      <div class="col d-flex align-items-center d-none d-md-block d-lg-block d-xl-block d-xxl-block">
         <img class="imageFit img-fluid" src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt="Hamster next to cheese" />
       </div>
       <div class="col d-flex align-items-start flex-column justify-content-center">
@@ -340,48 +340,48 @@
         <h1 class="hamsterParadise mt-4" style="color: white;">Reserve a Room</h1>
         <br>
         <div class="row d-flex justify-content-center" style="margin-right: 5%; margin-left: 5%;">
-          <div class="col">
+          <div class="col-md-auto">
             <div class="d-flex justify-content-start cardText2" style="color: white;">Check-in</div>
             <nav class="navbar">
-                <form class="d-flex" role="search" >
+                <form class="" role="search" >
                   <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
-                    style="border-radius: 0; width: 210px;">
+                    style="border-radius: 0;">
                 </form>
             </nav>
           </div>
-          <div class="col">
+          <div class="col-md-auto">
             <div class="d-flex justify-content-start cardText2" style="color: white;">Check-out</div>
             <nav class="navbar">
-                <form class="d-flex" role="search">
+                <form class="" role="search">
                   <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
-                    style="border-radius: 0; width: 210px;">
+                    style="border-radius: 0;">
                 </form>
             </nav>
           </div>
-          <div class="col">
+          <div class="col-md-auto">
             <div class="d-flex justify-content-start cardText2" style="color: white;">Number of Guests</div>
             <nav class="navbar">
-                <form class="d-flex" role="search">
+                <form class="" role="search">
                   <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
-                    style="border-radius: 0; width: 210px;">
+                    style="border-radius: 0;">
                 </form>
             </nav>
           </div>
-          <div class="col">
+          <div class="col-md-auto" >
             <div class="d-flex justify-content-start cardText2" style="color: white;">Room Type</div>
             <nav class="navbar">
-                <form class="d-flex" role="search">
+                <form class="" role="search">
                   <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
-                    style="border-radius: 0; width: 210px;">
+                    style="border-radius: 0;">
                 </form>
             </nav>
           </div>
-          <div class="col">
-            <div class="d-flex justify-content-start cardText2" style="color: #000324">Check-in</div>
+          <div class="col-md-auto">
+            <div class="d-flex justify-content-center cardText2" style="color: #000324">Check-in</div>
             <nav class="navbar">
-                <form class="d-flex" role="search">
+                <form class="" role="search">
                   <button
-                    style="width: 174px; border-radius: 0; border-color: #000DC7; background-color: #006EDB; color: white; font-family: 'Source Sans 3', sans-serif; font-size: 16px; font-weight: bold;"
+                    style=" border-radius: 0; border-color: #000DC7; background-color: #006EDB; color: white; font-family: 'Source Sans 3', sans-serif; font-size: 16px; font-weight: bold;"
                     class="btn" type="submit">Check Availability</button>
                 </form>
             </nav>
@@ -394,7 +394,7 @@
     </div>
   </div>
     <div class="row">
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex justify-content-center d-none d-md-block d-lg-block d-xl-block d-xxl-block">
         <img class="reserveImage img-fluid" src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="Hamster in a bowl of seeds">
       </div>
     </div>
