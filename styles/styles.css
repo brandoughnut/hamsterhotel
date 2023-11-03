@@ -128,14 +128,20 @@ p {
 
 @media screen and (max-width: 2560px) {
     .navBarFont {
-        font-size: 13px;
+        font-size: 16px;
     }
 
 }
 
 @media screen and (max-width: 1452px){
     .navBarFont {
-        font-size: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1203px) {
+    .navBarFont {
+        font-size: 13px;
     }
 }
 
