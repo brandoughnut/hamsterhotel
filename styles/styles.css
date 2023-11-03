@@ -63,10 +63,10 @@ p {
     background-color: rgb(25, 47, 96);
 }
 
-.navBarSpacing {
+/* .navBarSpacing {
     margin-left: 5px;
     margin-right: 5px;
-}
+} */
 
 .cardTitle {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
@@ -141,12 +141,21 @@ p {
 
 .nav-link {
     border: 1px solid;
-    border-color: #000324;
+    border-color: transparent;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.borderNav {
+    border-color: #E5FEFF;
     color: white;
 }
 
 .nav-link:hover {
-    border-color: white;
+    border-color: #E5FEFF;
     color: white;
 }
 
